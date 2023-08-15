@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Button Extension",
+  "version": "1.0",
+  "description": "Extension that adds a button to the page",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search?q=*"],
+      "js": ["content.js"]
+    }
+  ]
+}
