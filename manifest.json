@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Button Extension",
+  "name": "Google Search Results - Delete Extension",
   "version": "1.0",
   "description": "Extension that adds a button to the page",
   "permissions": ["activeTab"],
